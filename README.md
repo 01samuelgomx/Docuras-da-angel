@@ -1,2 +1,2 @@
 # Docuras-da-angel
-Landing page desenvolvida para ideia de uma futuro cliente.
+Landing page simples desenvolvida para ideia de uma futuro cliente.
