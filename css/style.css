@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&display=swap");
+body {
+  background-color: #ffccd8;
+}
+* {
+  font-family: "Coiny";
+}
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: aliceblue;
+}
+span {
+  color: #de466d;
+}
+/* ------------------------
+----------Topo---------
+------------------------ */
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  align-items: center;
+  background-color: #522313;
+}
+.menu ul {
+  display: flex;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: center;
+}
+/* ------------------------
+--------Bannner---------
+------------------------ */
+.banner {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+}
+.cont-banner {
+  padding: 5em;
+  margin-top: 5em;
+}
+.cont-banner div {
+  display: flex;
+}
+.cont-banner div div {
+  flex-direction: column;
+}
+
+.cont-banner div div h1 {
+  font-size: 5.3em;
+  color: #fff;
+  text-shadow: 0px 15px 4px gba(0, 0, 0, 0.25);
+  -webkit-text-stroke-width: 6px; /* largura da borda */
+  -webkit-text-stroke-color: #000; /* cor da borda */
+}
+.cont-banner div div h2 {
+  color: white;
+  font-size: 1.9em;
+  -webkit-text-stroke-width: 3.3px; /* largura da borda */
+  -webkit-text-stroke-color: #000; /* cor da borda */
+}
+/* ------------------------
+--------Serviços---------
+------------------------ */
+.servicos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 120vh;
+}
+.servicos h2 {
+  font-size: 2em;
+  color: #fff;
+  -webkit-text-stroke-width: 3px; /* largura da borda */
+  -webkit-text-stroke-color: #000; /* cor da borda */
+}
+.servicos div {
+  display: flex;
+  justify-content: space-around;
+  padding: 3em;
+}
+.servicos div img {
+  justify-content: space-around;
+}
+@media (max-width: 800px) {
+  /* ------------------------
+-----------Banner---------
+------------------------ */
+.banner {
+  display: flex;
+  height: 15vh;
+  align-items: center;
+}
+  .cont-banner {
+    padding: 2em;
+    margin-top: 10em;
+  }
+  .cont-banner div img {
+    width: 80px;
+    height: 80px;
+  }
+  .cont-banner div div h1 {
+    font-size: 2.3em;
+    color: #fff;
+    text-shadow: 0px 15px 4px gba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+  }
+  .cont-banner div div h2 {
+    color: white;
+    font-size: 1em;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+  }
+  /* ------------------------
+-----------Servicos---------
+------------------------ */
+.servicos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 180vh;
+}
+.servicos h2 {
+  font-size: 1.6em;
+  color: #fff;
+  -webkit-text-stroke-width: 2.3px;
+  -webkit-text-stroke-color: #000;
+}
+  .servicos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3em;
+}
+.servicos div img{
+  width: 80px;
+  height: 80px;
+
+}
+.copyrinthing{
+  font-size: 1em;
+}
+}
